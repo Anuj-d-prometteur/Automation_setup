@@ -2,10 +2,11 @@
 from datetime import timezone
 from time import sleep
 import pytest
-
-from Modules.Admin_Panel import Bookmakers
-from Modules.Admin_Panel import Setup
-
+#
+# from Modules.Admin_Panel import Bookmakers
+# from Modules.Admin_Panel import Setup
+from ...Modules.Admin_Panel import Bookmakers
+from ...Modules.Admin_Panel import Setup
 
 #validation meassage
 #//div[contains(text(),'Bookmaker deleted successfully')]
